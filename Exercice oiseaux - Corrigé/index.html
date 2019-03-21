@@ -1,0 +1,67 @@
+<!-- Doctype précise la version du HTML : ici HTML5 -->
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- Entête du fichier NON visible dans le navigateur-->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Référencement : lien google-->
+        <title>Titre de l'onglet avec mots clés</title>
+        <!-- Référencement : texte descriptif google-->
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt sem mauris, in consequat arcu dignissim et. Curabitur et felis tortor. Pellentesque bibendum ">
+        
+        <!--Liaison d'un fichier CSS-->
+        <link  rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link  rel="stylesheet" type="text/css" href="css/my_style.css">
+    </head>
+    <!-- Corps de la page visible dans le navigateur-->
+    <body>
+        <div class="container">
+            <header class="row bg-light-gray pt-3">
+                <div class="col-12 text-left">
+                    <a href="#" class="ml-5">Me</a>
+                    <ul class="d-inline-block menu mr-5">
+                        <li><a href="#">Who</a></li>
+                        <li class="mx-4"><a href="#">What</a></li>
+                        <li><a href="#">Where</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="row bg-green">
+                <div class="col-12">
+                    <h1 class="mb-4">Who</h1>
+                    <img src="img/bird.jpg" alt="aigle" class="img-circle">
+                    <div class="mt-5">I am Adventurer</div>
+                </div>
+            </section>
+            <section class="row bg-gray">
+                <div class="col-12">
+                    <h2>What</h2>
+                    <p>blabla blabla</p>
+                    <a href="#" class="btn btn-dark">Search</a>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-md-4">
+                    <img src="img/birds1.jpg" alt="aigle">
+                </div>
+                <div class="col-md-4 my-3">
+                    <img src="img/birds2.jpg" alt="aigle">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/birds3.jpg" alt="aigle">
+                </div>
+            </section>
+
+            <footer class="row bg-black p-3">
+                <div class="col-12">
+                    Copyright @...
+                </div>
+            </footer>
+        </div>
+	<!-- script js et bootstrap indispensable--> 
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
