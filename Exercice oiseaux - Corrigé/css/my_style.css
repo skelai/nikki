@@ -1,0 +1,40 @@
+body{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1,h2{
+    font-size: 22px;
+}
+.bg-green{
+    background-color: #1ABC9C;
+}
+.bg-gray{
+    background-color: #474E5D;
+}
+.bg-light-gray{
+    background-color: lightgray;
+}
+.bg-black{
+    background-color: #2F2F2F;
+}
+
+section{
+    padding: 50px;
+}
+.img-circle{
+    border-radius: 50% 50% 50% 50%;
+}
+img{
+    max-width: 100%;
+}
+.menu li{
+    display: inline-block;
+}
+.menu{
+    float:right;
+}
+a{
+    color: #000;
+}
